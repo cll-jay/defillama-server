@@ -30105,7 +30105,14 @@ const data4: Protocol[] = [
       {
         name: "Chaos",
         type: "Primary",
+        endDate: "2026-05-11",
         proof: ["https://docs.tydro.com/primitives/oracle"],
+      },
+      {
+        name: "Chainlink",
+        type: "Primary",
+        startDate: "2026-05-12",
+        proof: ["https://docs.tydro.com/primitives/oracle", "https://docs.tydro.com/resources/risks", "https://x.com/tydrohq/status/2052544320247369764?s=20", "https://explorer.inkonchain.com/tx/0x3c530d53af8791a5a7d849f89c9983e6711ed707b45dc12cdbb4776af54f6f00?tab=index"],
       },
     ],
     listedAt: 1760580111,

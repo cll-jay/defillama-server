@@ -1630,6 +1630,13 @@ const data5: Protocol[] = [
     category: "Onchain Capital Allocator",
     chains: ["Ethereum"],
     audit_links: ["https://docs.makina.finance/concepts/security/audits"],
+    oraclesBreakdown: [
+      {
+        name: "Chainlink",
+        type: "Primary",
+        proof: ["https://docs.makina.finance/concepts/oracle-registry", "https://docs.makina.finance/contracts/core/interfaces/IOracleRegistry.sol/interface.IOracleRegistry", "https://dune.com/makinafi/makina#oracle-registry"],
+      },
+    ],
     module: "makina-finance/index.js",
     twitter: "makinafi",
     github: ["MakinaHQ"],
